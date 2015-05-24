@@ -1,0 +1,34 @@
+<!--
+Syd Adams
+Navigation display
+-->
+
+<PropertyList>
+
+    <panel>
+        <path>Aircraft/707-320/Models/Flightdeck/Instruments/EFB/chart.xml</path>
+        <bottom-left>
+            <x-m> 0.01</x-m>
+            <y-m>-0.065</y-m>
+            <z-m>-0.22</z-m>
+        </bottom-left>
+        <bottom-right>
+            <x-m> 0.01</x-m>
+            <y-m> 0.065</y-m>
+            <z-m>-0.22</z-m>
+        </bottom-right>
+        <top-left>
+            <x-m> 0.01</x-m>
+            <y-m>-0.065</y-m>
+            <z-m>-0.02</z-m>
+        </top-left>
+    </panel>
+
+<!-- LoD -->
+ <animation>
+   <type>range</type>
+   <min-m>0</min-m>
+   <max-m>30</max-m>
+ </animation>
+
+</PropertyList>

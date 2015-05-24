@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+            <name type="string">Air France 2014C</name>
+            <texture>LiveriesCargo/AFR2014C.png</texture>
+        </livery>
+    </model>
+</sim>
+</PropertyList>
+
+
+<!--  LIVERY by F-STU  -->

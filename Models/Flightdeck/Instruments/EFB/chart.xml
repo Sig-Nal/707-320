@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+    <name>Airport Chart</name>
+    <background>Aircraft/707-320/Models/Flightdeck/Instruments/EFB/transparent.png</background>
+    <w>512</w>
+    <h>684</h>
+
+    <instruments>
+
+        <instrument include="airport-display.xml">
+            <name>Chart</name>
+            <x>256</x><!--x>derecha izquierda 256</x-->
+            <y>292</y><!--arriba abajo 342</y-->
+            <w>512</w><!-- adelante atrás w>512</w-->
+            <h>362</h><!--h> tamaño 512</h-->
+        </instrument>
+
+
+        <instrument include="charttext.xml">
+            <name>Text</name>
+            <x>256</x>
+            <y>342</y>
+            <w>512</w>
+            <h>484</h><!--h>684</h-->
+        </instrument>
+ 
+    </instruments>
+
+<!-- LoD -->
+ <animation>
+   <type>range</type>
+   <min-m>0</min-m>
+   <max-m>30</max-m>
+ </animation>
+
+</PropertyList>
